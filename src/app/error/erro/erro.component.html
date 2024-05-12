@@ -1,0 +1,16 @@
+<div class="containtainer p-2">
+  <div class="row g-0">
+    <div class="col"></div>
+    <div class="col-10 text-center">
+      <h4 style="font-weight: bold;">{{data.title}}</h4>
+    </div>
+    <div class="col text-end">
+      <a class="material-icons close-icon" style="color: red;" (click)="close()"> {{data.icon}} </a>
+    </div>
+  </div>
+  <div class="row g-0">
+    <div class="col">
+        {{data.description}}
+    </div>
+  </div>
+</div>
